@@ -1,0 +1,36 @@
+ .style0{
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    height:93.3vh;
+    width: 100vw;
+}
+.preview-2{
+   width: 80vw;
+   overflow: auto;
+   margin: auto;
+   height: 18vmin;
+}
+@media screen and (max-width:940px) {
+   textarea{
+    width: 80vw;
+    height: 30vh;
+   }
+   .preview-2{
+   height: 45vmin;
+}
+}
+@media screen and (max-width:645px) {
+   .btn-s button{
+   font-size: 12px;
+   margin: 5px;
+   }
+   .my-3 p{
+      font-size: 14px;
+   }
+}
+@media screen and (max-height:800px) {
+   .style0{
+      height: auto;
+   }
+}
